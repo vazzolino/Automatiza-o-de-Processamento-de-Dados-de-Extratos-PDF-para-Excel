@@ -1,0 +1,9 @@
+"O código em questão automatiza a extração, formatação e análise de dados de extratos em formato PDF relacionados a tributos. Por meio de bibliotecas Python como tkinter, pandas, pdfplumber e openpyxl, ele realiza uma série de tarefas complexas de maneira eficiente e precisa.
+
+Primeiramente, o código verifica regularmente pastas específicas em busca de arquivos PDF de extratos. Quando todos os arquivos são encontrados, uma mensagem de confirmação é exibida, permitindo ao usuário prosseguir com o programa. Isso é útil para garantir que todos os documentos necessários estejam presentes antes de iniciar o processamento.
+
+Após a confirmação, o código extrai o texto dos arquivos PDF, converte-o em formato Excel e realiza diversas operações de limpeza e formatação nos dados. Isso inclui a manipulação de várias planilhas e a aplicação de fórmulas para categorizar os dados de acordo com critérios específicos, como o tipo de transação.
+
+Além disso, o código realiza análises estatísticas nos dados, somando valores em diferentes planilhas e preparando um relatório detalhado para envio por e-mail. Essa funcionalidade economiza tempo e esforço, fornecendo insights valiosos sobre os tributos e simplificando a comunicação interna ou externa.
+
+Por fim, o código limpa os arquivos temporários e exclui os arquivos de origem, mantendo a organização do sistema e garantindo a segurança dos dados. Ao automatizar essas tarefas repetitivas e suscetíveis a erros, o código aumenta a eficiência operacional e reduz o risco de inconsistências nos registros tributários."
